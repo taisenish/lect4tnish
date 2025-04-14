@@ -4,7 +4,7 @@ import cookieParser from 'cookie-parser';
 import logger from 'morgan';
 
 import usersRouter from './routes/users.js';
-import menusRouter from './rooutes/menu.js'
+import menusRouter from './routes/menu.js'
 
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
