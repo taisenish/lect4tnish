@@ -5,7 +5,7 @@ router.get('/', (req, res) => {
     res.send("This is the dessert")
 })
 
-router.get('/1', (req, res) => {
+router.get('/1', (req, res)) => {
     res.send("Chocolate Cake")
 })
 
